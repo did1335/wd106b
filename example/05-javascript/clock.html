@@ -8,7 +8,7 @@ function showTime() {
     var m=today.getMinutes();
     var s=today.getSeconds();
     document.getElementById('time').innerHTML = h+":"+m+":"+s;
-    setTimeout(function(){showTime()},500);
+    setTimeout(function(){showTime()},500); //每隔0.5秒會更新一次
 }
 </script>
 </head>
