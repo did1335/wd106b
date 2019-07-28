@@ -5,5 +5,3 @@ console.log(a.reverse())
 console.log(a.sort())
 console.log(a.pop())
 console.log(a)
-
-
