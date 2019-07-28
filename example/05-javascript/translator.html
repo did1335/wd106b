@@ -13,7 +13,7 @@ input { width:400px }
   function mt() {
     var english = document.getElementById('english')
     var chinese = document.getElementById('chinese')
-    var e = english.value.split(/\s+/)
+    var e = english.value.split(/\s+/) //用空白來分割字串(正規表達式)
     var c = []
     for (var i=0; i < e.length; i++) {
       c.push(e2c[e[i]])
