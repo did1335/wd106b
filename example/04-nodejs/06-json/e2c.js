@@ -12,3 +12,9 @@ function mt (e) {
 
 var c = mt(process.argv.slice(2))
 console.log(c)
+
+/*
+>node e2c a cat chase a dog
+執行結果:
+[ '一隻', '貓', '追', '一隻', '狗' ]
+*/
