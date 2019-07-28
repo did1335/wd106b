@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Hello World 網站</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+<h2>文本域（Text Fields)</h2>
+<form>
+    First name: <input type="text" name="firstname"><br>
+    Last name: <input type="text" name="lastname">
+</form>
+
+<h2>密码字段</h2>
+<form>
+    Password: <input type="password" name="pwd">
+</form>
+
+<h2>單选按钮（Radio Buttons）</h2>
+<form>
+    <input type="radio" name="sex" value="male">Male<br>
+    <input type="radio" name="sex" value="female">Female
+</form>
+
+<h2>複选框（Checkboxes）</h2>
+<form>
+    <input type="checkbox" name="vehicle" value="Bike">I have a bike<br>
+    <input type="checkbox" name="vehicle" value="Car">I have a car 
+</form>
+
+<h2>提交按钮(Submit Button)</h2>
+<form name="input" action="html_form_action.php" method="get">
+    Username: <input type="text" name="user">
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
