@@ -6,4 +6,4 @@ function factorial(n){
     return result
 }
 
-console.log("factorial(10)=",factorial(10))
+console.log("10!=",factorial(10))
