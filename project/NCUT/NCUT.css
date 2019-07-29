@@ -1,0 +1,188 @@
+*{padding: 0px;  margin: 0px auto;  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,'標楷體'}
+body{width:1019px;}
+.center{text-align: center;}
+
+.container{
+    background-color: #c2e1ff;
+    margin-top: -5px;
+}
+
+#ncuthead_01{ 
+    position: relative;
+    height:102px;
+    background: #fafafa url(http://web2.ncut.edu.tw/ezfiles/0/1000/img/949/greengrass0505.jpg) no-repeat;
+    background-position: 0px 0px;
+ }
+#ncutlogo{height:80px;}
+#titlementbox{
+    position: relative;
+    bottom: 20px;
+    right:0px;
+    width: fit-content;
+    height: 32px;
+}
+#titlemenu_k01 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    float: left;
+    width: 102px;
+    height: 35px;
+    background: url(http://web2.ncut.edu.tw/ezfiles/0/1000/img/949/k1.png) no-repeat;
+}
+#titlemenu_k02 {
+    position: absolute;
+    top: 0px;
+    left: 110px;
+    float: left;
+    width: 102px;
+    height: 35px;
+    background: url(http://web2.ncut.edu.tw/ezfiles/0/1000/img/949/k2.png) no-repeat;
+}
+#titlemenu_k03 {
+    position: absolute;
+    top: 0px;
+    left: 220px;
+    float: left;
+    width: 102px;
+    height: 35px;
+    background: url(http://web2.ncut.edu.tw/ezfiles/0/1000/img/949/k3.png) no-repeat;
+}
+#titlemenu_k04 {
+    position: absolute;
+    top: 0px;
+    left: 330px;
+    display: flow-root;
+    width: 102px;
+    height: 35px;
+    background: url(http://web2.ncut.edu.tw/ezfiles/0/1000/img/949/k4.png) no-repeat;
+}
+
+#welcome{
+    margin-top: 10px;
+}
+
+.marquee {
+    font-size: 16pt;
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .marquee div {
+    width: 100%;
+    height: 35px;
+    display: block;    
+    position: absolute;
+    overflow: hidden;
+    animation: marquee 15s linear infinite;
+  }
+  
+  .marquee span {
+    float: left;
+    width: 50%;
+  }
+  
+  @keyframes marquee {
+    0% {
+      left: -100%;
+    }
+    100% {
+      left: 100%;
+    }
+  }
+
+.column,.col1,.col2{
+    height: 520px;
+}
+
+.column{
+    position: relative;
+    top:-2px;
+    left: 0px;
+    width:100%;
+}
+.col1{
+    position:absolute;  
+    top:0px;
+    left:0px;  
+    float: left;
+    width: 20%;
+    background-color: aquamarine;
+}
+.col2{
+    position: absolute;
+    top: 0px;
+    left:20%;
+    display: flow-root;
+    width:80%;
+    background-color: blanchedalmond;
+}
+
+button.btn{
+    float: right;
+    padding: 10px 16px;
+    font-size: 12pt;
+    line-height: 1.3333333;
+    border-radius: 1em;
+    color: #fff;
+    background-color: #5babf7;
+    border-color: #46b8da;
+    position: relative;
+    top:3px;
+    right: 5px;
+    bottom: 5px;
+    margin: 3px;
+}
+button.btn:hover{background-color: dodgerblue;}
+.btn>a{color:#fff;}
+
+#tdk{
+    margin-top: 1.2em;
+}
+
+#col1row1,#col1row2,#col1row3,
+#col2row1,#col2row2,#col2row3,
+#col3row1,#col3row2,#col3row3{
+    position: absolute;
+    width:200px;
+    height:150px;
+    font-size: 30pt;
+    color:white;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-content: center; 
+}
+
+#col1row1,#col2row1,#col3row1{top:35px;}
+#col1row2,#col2row2,#col3row2{top:185px;}
+#col1row3,#col2row3,#col3row3{top:335px;}
+
+#col1row1,#col1row2,#col1row3{left:100px;}
+#col2row1,#col2row2,#col2row3{left:300px;}
+#col3row1,#col3row2,#col3row3{left:500px;}
+
+#col1row1{background-color:#00bfff}
+#col1row2{background-color:#ff6347}
+#col1row3{background-color:#adff2f}
+#col2row1{background-color:#ff93c0}
+#col2row2{background-color:aqua}
+#col2row3{background-color:#f5b062}
+#col3row1{background-color:#98fb98}
+#col3row2{background-color:#50cdff}
+#col3row3{background-color:#cfaaf8}
+
+.copyright{text-align: center;}
+
+footer{
+    text-align: center; 
+    width: 100%;
+    min-height: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:rgb(200, 250, 185);
+    font-family: 'Courier New', Courier, monospace,'標楷體';
+}
+
