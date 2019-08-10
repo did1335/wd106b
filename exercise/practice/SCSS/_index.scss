@@ -1,5 +1,8 @@
-p{
-    font-size: $font-size !important;
+@mixin articlefont {
+    font-size: $font-size;
+}
+p,article{
+    @include articlefont();
 }
 h1{
     width:fit-content;
@@ -12,9 +15,10 @@ h1{
     border-right-color: tomato;
 }
 h3{
-    @extend h1,p;
-    border-width: $sub-title-border-width;
-    font-weight: 550; 
-}
+    @extend h1;
+    @include articlefont();
 
-    
+    border-width: $sub-title-border-width;
+    font-weight: 550;
+}
+   

@@ -1,5 +1,5 @@
-p, h3 {
-  font-size: 16pt !important;
+p, article {
+  font-size: 16pt;
 }
 
 h1, h3 {
@@ -16,6 +16,7 @@ h1, h3 {
 }
 
 h3 {
+  font-size: 16pt;
   border-width: 5px;
   font-weight: 550;
 }
