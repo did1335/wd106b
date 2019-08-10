@@ -1,0 +1,20 @@
+p{
+    font-size: $font-size !important;
+}
+h1{
+    width:fit-content;
+    font-size: $title-font-size;
+    border-block-start-color: aqua;
+    border-width: $title-border-width; 
+    border-left-style: solid;
+    border-left-color: aqua;
+    border-right-style: double;
+    border-right-color: tomato;
+}
+h3{
+    @extend h1,p;
+    border-width: $sub-title-border-width;
+    font-weight: 550; 
+}
+
+    
