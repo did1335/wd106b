@@ -7,5 +7,9 @@
     "publish": "git add -A&&git commit -m \"upload\"&&git push origin master"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0"
+  }
 }
