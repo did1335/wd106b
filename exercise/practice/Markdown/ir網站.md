@@ -51,5 +51,6 @@
 用於校務資訊公開專區(內含特效、錨點偏移)
 ```
 ```HTML
+HTML指令:
 <link rel="stylesheet" type="text/css" href="http://ir.ncut.edu.tw/var/file/3/1003/img/26/510423578.css"/>
 ```
